@@ -86,8 +86,9 @@ hr .main-breaker {
 
 .company-list {
     display: flex;
-    border-color: #333;
+    border-color: #333333;
     flex-wrap: wrap;
+    width: auto;
 }
 
 .company {
@@ -112,3 +113,22 @@ hr .main-breaker {
     margin-right: 15px;
     width: 400px;
 }
+
+.education-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: auto;
+    width: auto;
+}
+
+.education-item {
+    border-color: #333;
+    border-style: groove;
+    list-style: none;
+    padding: 5px;
+    margin: 20px;
+    box-shadow: 2px 2px gainsboro;
+    width: 500px;
+}
+
+
