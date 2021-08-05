@@ -72,7 +72,7 @@ hr .main-breaker {
     color: #333;
 }
 
-.work-history-name {
+.card-name {
     text-align: center;
     width: auto;
 }
@@ -84,14 +84,14 @@ hr .main-breaker {
     text-decoration: solid underline;
 }
 
-.company-list {
+.card-box {
     display: flex;
     border-color: #333333;
     flex-wrap: wrap;
     width: auto;
 }
 
-.company {
+.card {
     border-color: #333;
     border-style: groove;
     list-style: none;
@@ -121,14 +121,21 @@ hr .main-breaker {
     width: auto;
 }
 
-.education-item {
-    border-color: #333;
-    border-style: groove;
-    list-style: none;
-    padding: 5px;
-    margin: 20px;
-    box-shadow: 2px 2px gainsboro;
-    width: 500px;
+.education-name {
+    width: auto;
 }
 
+.education-classes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.education-class-item {
+    margin: 5px;
+    text-align: center;
+}
 
