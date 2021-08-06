@@ -75,20 +75,24 @@ hr .main-breaker {
 .card-name {
     text-align: center;
     width: auto;
+    height: 100px;
 }
 
 .work-history-title {
     text-align: center;
     font-size: 3vw;
     margin: 10px;
-    text-decoration: solid underline;
+    text-decoration: underline;
+    height: 200px;
+    align-self: center;
 }
 
 .card-box {
     display: flex;
     border-color: #333333;
-    flex-wrap: wrap;
-    width: auto;
+    overflow-y: scroll;
+    width: 85%;
+    margin: auto;
 }
 
 .card {
@@ -99,6 +103,7 @@ hr .main-breaker {
     margin: 20px;
     box-shadow: 2px 2px gainsboro;
     width: 500px;
+    text-align: center;
 }
 
 .work-history-dates {
@@ -109,7 +114,7 @@ hr .main-breaker {
 .work-history-item {
     list-style:disc;
     margin: 10px;
-    text-align:justify;
+    text-align:center;
     margin-right: 15px;
     width: 400px;
 }
@@ -139,3 +144,26 @@ hr .main-breaker {
     text-align: center;
 }
 
+.education-degree {
+    font-size: 3vw;
+    margin: 10px;
+    text-decoration: solid underline;
+}
+
+.education-date {
+    font-size: 12;
+    margin: 10px;
+}
+
+.education-gpa {
+    font-size: 12;
+    margin: 10px;
+}
+
+.porfolio-item {
+    width: 200px;
+}
+.github-link {
+    color: navy;
+    text-decoration: solid underline;
+}
